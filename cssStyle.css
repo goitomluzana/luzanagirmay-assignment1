@@ -1,0 +1,123 @@
+/* CSS for penguins website*/
+body {background-color: greenyellow;}
+        
+/*main box to hold everything*/
+div#main {position: static;
+            box-sizing: border-box;
+            width: 1000px;
+            height: 900px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7)}
+
+/*boxes that go inside main*/
+
+header {position: static;
+        box-sizing: border-box;
+        width: 1000px;
+        height: 150px;
+        background-color: darkblue;
+        background-image: url(header_graphic.jpg);}
+
+nav {position: static;
+        box-sizing: border-box;
+        width: 1000px;
+        height: 60px;
+        padding: 5px;
+        background-color: deepskyblue;
+        text-align: center;}
+
+aside#left {position: static;
+            box-sizing: border-box;
+            float: left;
+            width: 200px;
+            height: 650px;
+            background-color: blue;
+            background-image: url(left_graphic.jpg);}
+
+article {position: static;
+            box-sizing: border-box;
+            float: left;
+            width: 600px;
+            height: 650px;
+            background-color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 16px;
+            line-height: 22px;
+            font-family: arial;
+            overflow: auto;
+            text-align: left;}
+
+aside#right {position: static;
+            box-sizing: border-box;
+            float: left;
+            width: 200px;
+            height: 650px;
+            background-color: lightblue;
+            background-image: url(right_graphic.jpg);}
+
+footer {position: static;
+        box-sizing: border-box;
+        /* use this to make the footer not float*/
+        clear: both;
+        width: 1000px;
+        height: 40px;
+        padding-top: 10px;
+        background-color: #006599;
+        color: white;
+        font-size: 12px;
+        font-family: arial;
+        text-align: center;}
+
+/* style the a tags inside nav*/
+
+nav a {font-family: arial;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /*make each link act like a mini div box*/
+        display: inline-block;
+        border: 1px solid navy;
+        border-radius: 20px;}
+
+nav a:link {color: white;
+            background-color: #1cb2ff;
+            box-shadow: 4px 4px 0px navy;}
+
+nav a:visited {color: white;
+                background-color: #1cb2ff;
+                box-shadow: 4px 4px 0px navy;}
+
+nav a:hover {color: yellow;
+            background-color: #55c5ff;
+            box-shadow: 6px 6px 0px navy;
+            transform: translate(-2px, -2px);
+            font-size: normal;}
+
+nav a:active {color: limegreen;
+                background-color: #2929ea;
+                box-shadow: 0px 0px 0px navy;
+                transform: translate(2px, 2px);}
+h1 {color: black;
+    font-family: comic sans ms;
+    font-size: 50px;
+    padding-top: 0px;}
+
+a {}
+
+a:link {color: deepskyblue;}
+
+a:visited {color: deepskyblue;}
+
+a:hover {color: red;
+            font-size: italic;}
+
+a:active {color: black;
+            font-style: normal;
+            text-decoration: none;}
